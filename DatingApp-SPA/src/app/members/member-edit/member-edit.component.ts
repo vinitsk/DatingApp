@@ -41,4 +41,8 @@ this.userService.updateUser(this.authService.decodedToken.nameid, this.user).sub
 
 }
 
+updateMainPhoto(photoUrl) {
+  this.user.photoUrl = photoUrl;
+}
+
 }
